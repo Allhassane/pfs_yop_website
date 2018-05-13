@@ -1,0 +1,208 @@
+
+/*::::::::::::::::::::::::::::::::::: affichage tablette :::::::::::::::::::::::::*/
+@media (min-width: 1025px) and (max-width: 1200px){
+    /* :::::::::::::: menu :::::::::::::::*/
+    #menu-md li {
+        padding: 10px .7%;
+    }
+    #main-slide .item-one{
+        height: 350px;
+    }
+
+    /* :::::::::::::: slide :::::::::::::::*/
+    #main-slide .caption .title {
+        font-size: 20px;
+    }
+    /*:::::::::::::::::::::::: actualité :::::::::::::::*/
+    #main-actualite .main-actualite-caution h3{
+        font-size: 18px;
+    }
+
+    .astuce{
+        padding-bottom: 25px;
+    }
+    .body h2{
+        font-size: 16px !important;
+    }
+    .facebook ul > li{
+        margin-left: 5%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1024px){
+    /* :::::::::::::: menu :::::::::::::::*/
+    #menu-md li {
+        padding: 10px .7%;
+    }
+    #main-slide .item-one{
+        height: 350px;
+    }
+
+    /* :::::::::::::: slide :::::::::::::::*/
+    #main-slide .caption .title {
+        font-size: 20px;
+    }
+    /*:::::::::::::::::::::::: actualité :::::::::::::::*/
+    #main-actualite .main-actualite-caution h3{
+        font-size: 18px;
+    }
+
+    .astuce{
+        padding-bottom: 25px;
+    }
+    .body h2{
+        font-size: 16px !important;
+    }
+    .facebook ul > li{
+        margin-left: 5%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .pub .website-title, .pub .website-subtitl {
+        font-size: 1.6em;
+    }
+    /* :::::::::::::: menu :::::::::::::::*/
+    #menu-md li {
+        padding: 10px .7%;
+    }
+    #menu-md li a{
+        font-size: 10px !important;
+        color: #FFF;
+    }
+    #main-slide .item-one{
+        height: 250px;
+    }
+
+    /* :::::::::::::: slide :::::::::::::::*/
+    #main-slide .caption .title {
+        font-size: 14px;
+    }
+    #main-slide .control-left{
+        bottom: 7em;
+    }
+    #main-slide .control-right{
+        bottom: 7em;
+    }
+    /*:::::::::::::::::::::::: actualité :::::::::::::::*/
+    #main-actualite .main-actualite-caution h3{
+        font-size: 16px;
+        margin-top: -7px;
+    }
+    #main-actualite .main-actualite-caution{
+        padding: .5em;
+    }
+    .second-actualite .second-actualite-content div a{
+        font-size: 9px;
+    }
+
+    .astuce{
+        padding-bottom: 12em;
+    }
+    .body h2{
+        font-size: 16px !important;
+    }
+    .facebook ul > li{
+        margin-left: 5%;
+    }
+
+    /* :::::::::::::: rubrique :::::::::::*/
+    .rubrique > li {
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 767px) {
+    .logo-sm{
+        text-align: center;
+        margin-top: 20px;
+    }
+    #menu-md{
+        display: none;
+    }
+    .toggle{
+        display: none;;
+    }
+    #menu-sm{
+        display: block;
+        padding: 0;
+        margin: 0;
+        z-index: 99;
+        background-color: #F0941F;
+    }
+    #menu-sm li{
+        display: block;
+        list-style: none;
+        padding: 5px 1.5%;
+        cursor: pointer;
+        z-index: 9;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-bottom: 1px solid #fff;
+    }
+    #menu-sm li .nav-sm{
+        border: 1px solid #fff;
+        border-radius: 4px;
+        padding: 3px 15px;
+    }
+    #menu-sm li a{
+        font-size: 12px !important;
+        color: #FFF;
+    }
+    #menu-sm .sous-menu li{
+        border-bottom: 0;
+    }
+
+    .pub .website-title, .pub .website-subtitl {
+        font-size: 2em;
+    }
+
+    /* :::::::::::::: slide :::::::::::::::*/
+    #main-slide .item-one{
+        /*background-size: cover;*/
+        height: 300px;
+    }
+    #main-slide .caption .title {
+        font-size: 14px;
+    }
+    #main-slide .control-left{
+        bottom: 10em;
+    }
+    #main-slide .control-right{
+        bottom: 10em;
+    }
+    /*:::::::::::::::::::::::: actualité :::::::::::::::*/
+    #main-actualite .main-actualite-caution h3{
+        font-size: 16px;
+        margin-top: -7px;
+    }
+    #main-actualite .main-actualite-caution{
+        padding: 1em;
+    }
+    .second-actualite .second-actualite-content div a{
+        font-size: 12px;
+    }
+
+    /*::::::::::::::::::::::::::::: medicament :::::::::::::::::::::::*/
+    .block-medicament .medicament-slide .medicament-img img{
+        max-width:100%;
+        height:auto;
+    }
+
+    .news-letter .news-letter-content img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .astuce{
+        padding-bottom: 5em;
+    }
+    .body h2{
+        font-size: 16px !important;
+    }
+    .facebook ul > li{
+        margin-left: 5%;
+    }
+
+    /* :::::::::::::: rubrique :::::::::::*/
+    .rubrique > li {
+        font-size: 16px;
+    }
+}
